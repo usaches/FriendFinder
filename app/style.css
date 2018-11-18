@@ -1,5 +1,6 @@
 #matchImage {
-    max-width: 80%;
+    max-height: 90%;
+    margin:auto;
 }
 body {
     background-image:url("https://vignette.wikia.nocookie.net/southpark/images/5/52/GoFundYourself-00001.png/revision/latest?cb=20140925163528");
@@ -38,4 +39,7 @@ body {
 .smallen {
     max-width: 20%;
     margin:auto;
+}
+.modal-body {
+    background-color: darkslategrey;
 }

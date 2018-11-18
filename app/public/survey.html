@@ -155,17 +155,9 @@
     <div id="newFriend" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="modal-title">Your #1 match is:</h3>
-                </div>
                 <div class="modal-body">
-                    <h2 id="bestMatch"></h2>
+                    <h2 class="text-center" id="bestMatch"></h2>
                     <img id="matchImage" src="#">
-                </div>
-                <br>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -199,7 +191,7 @@
             var currentURL = window.location.origin;
             // Ajax call for receiving response after POST req
             $.post(currentURL + "/api/friends", addFriend, function(data) {
-                $("#bestMatch").text(data.name);
+                $("#bestMatch").text(data.name + " is your #1 match!");
                 $("#matchImage").attr("src", data.photo);
                 $("#newFriend").modal("toggle");
             });
