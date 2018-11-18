@@ -1,0 +1,39 @@
+#matchImage {
+    max-width: 80%;
+}
+body {
+    background-image:url("../assets/images/background.png");
+}
+
+.toptext {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: lightgreen;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.srvybtn {
+    background-color: lightgreen;
+    color: black;
+    font-weight: bold;
+}
+.srvycont {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: palegoldenrod;
+    font-family: "Bookman Old Style";
+    max-width: 75%;
+
+}
+.instructions {
+    font-size: 18px;
+    color: lightgreen;
+}
+.form-group{
+    max-width: 50%;
+    margin:auto;
+    font-size: 18px;
+    text-align: center;
+}
+.smallen {
+    max-width: 20%;
+    margin:auto;
+}

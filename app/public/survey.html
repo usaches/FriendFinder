@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey - Find a Friend in South Park!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container content srvycont">
+    <h1 class="text-center">Survey</h1><br>
+    <p class="text-center instructions"><strong>If the Question does not ask for a number, consider 0 to be 'Strongly Disagree' and 5 to be 'Strongly Agree'</strong></p>
+    <form>
+        <div class="form-group">
+            <input id="name" type="text" class="form-control" placeholder="Name">
+        </div>
+        <br>
+        <div class="form-group">
+            <input id="photo" type="text" class="form-control" placeholder="Profile Picture (URL)">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="question1">How much do you like Guitar Hero?</label>
+            <select class="form-control smallen" id="question1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="question2">How many times has your sister beaten you up?</label>
+            <select class="form-control smallen" id="question2">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="question3">Would you cook a person's parents into chili and feed it to them for revenge?</label>
+            <select class="form-control smallen" id="question3">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="question4">How many times have you been abducted by aliens?</label>
+            <select class="form-control smallen" id="question4">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="question5">How many siblings do you have?</label>
+            <select class="form-control smallen" id="question5">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="question6">How many times have you been killed?</label>
+            <select class="form-control smallen" id="question6">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">More than 5</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="question7">How many times per week do you make fun of Butters?</label>
+            <select class="form-control smallen" id="question7">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="question8">How much do you like to play Basketball?</label>
+            <select class="form-control smallen" id="question8">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="question9">How many times have you met Terrance and Philip?</label>
+            <select class="form-control smallen" id="question9">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="question10">How many times per week do you eat at Raisins?</label>
+            <select class="form-control smallen" id="question10">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+    </form>
+    <br>
+    <div class="text-center">
+        <button id="submitBtn" type="submit" class="btn btn-success btn-lg">Submit</button>
+    </div>
+    <br>
+    <div id="newFriend" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Your #1 match is:</h3>
+                </div>
+                <div class="modal-body">
+                    <h2 id="bestMatch"></h2>
+                    <img id="matchImage" src="#">
+                </div>
+                <br>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<script type="text/javascript">
+    $("#submitBtn").on("click", function(event) {
+        event.preventDefault();
+        console.log("click");
+        var check = true;
+        if($("#name").val() === ""){
+            check = false;
+        }
+        if(check === true) {
+            var addFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [
+                    $("#question1").val(),
+                    $("#question2").val(),
+                    $("#question3").val(),
+                    $("#question4").val(),
+                    $("#question5").val(),
+                    $("#question6").val(),
+                    $("#question7").val(),
+                    $("#question8").val(),
+                    $("#question9").val(),
+                    $("#question10").val()
+                ]
+            };
+            var currentURL = window.location.origin;
+            // Ajax call for receiving response after POST req
+            $.post(currentURL + "/api/friends", addFriend, function(data) {
+                $("#bestMatch").text(data.name);
+                $("#matchImage").attr("src", data.photo);
+                $("#newFriend").modal("toggle");
+            });
+        } else {
+            alert("Your Name is Required!");
+        }
+    });
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
