@@ -1,4 +1,4 @@
-ty-wildwood-38642.herokuapp.com
+http://salty-wildwood-38642.herokuapp.com
 
 # FriendFinder
 
